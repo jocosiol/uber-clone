@@ -43,12 +43,12 @@ const NavOptions = () => {
               source={{ uri: item.image }}
             />
             <Text style={tw`mt-2 text-lg font-semibold`}>{item.title}</Text>
-            <Icon
+            {/* <Icon
               style={tw`p-2 bg-black rounded-full w-10 mt-4`}
               name="arrowright"
               color="white"
-              type="antdesign"
-            />
+              type="ant-design"
+            /> */}
           </View>
         </TouchableOpacity>
       )}
